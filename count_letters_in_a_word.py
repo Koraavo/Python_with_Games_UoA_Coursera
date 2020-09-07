@@ -1,0 +1,7 @@
+print(" input a word and a letter in the word and count how many times they appear")
+word = input('Enter a string >')
+new_word = '"{}"'.format(word)
+sub_str = input('Enter a substring >')
+new_sub_str = '"{}"'.format(sub_str)
+count = str.count(word, sub_str)
+print('the substring', new_sub_str, 'appears', count, 'times in', new_word)
